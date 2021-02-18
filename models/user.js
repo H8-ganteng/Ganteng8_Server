@@ -28,23 +28,6 @@ module.exports = (sequelize, DataTypes) => {
         msg: 'Username is Already Used!'
       }
     },
-    email:{
-      type: DataTypes.STRING,
-      validate: {
-        notEmpty: {
-          args: true,
-          msg: 'Email is Required'
-        },
-        isEmail: {
-          args: true,
-          msg: 'Must Use Email Format'
-        }
-      },
-      unique: {
-        args: true,
-        msg: 'Email is Already Used!'
-      }
-    },
     points: DataTypes.INTEGER,
     password: {
       type: DataTypes.STRING,
