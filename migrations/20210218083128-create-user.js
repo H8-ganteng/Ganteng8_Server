@@ -9,14 +9,15 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       username: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true
       },
       points: {
         type: Sequelize.INTEGER
       },
-      loggedIn: {
-        type: Sequelize.BOOLEAN
-      },
+      // loggedIn: {
+      //   type: Sequelize.BOOLEAN
+      // },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
