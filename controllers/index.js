@@ -1,7 +1,7 @@
 const { User, Question } = require('../models')
 
 class Controller {
-    static addUser(req, res, next) {
+    static createUser(req, res, next) {
         const { username, email, password } = req.body
         const newUser = { username, email, password }
         User.findOne({
@@ -25,6 +25,9 @@ class Controller {
                 res.status(500).json({ msg: 'Internal server error' })
             }
         })
+    }
+    static deleteUser(req, res, next) {
+        
     }
     static getQuestions(req, res, next) {
         Question.findAll()
