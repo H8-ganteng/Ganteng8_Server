@@ -82,5 +82,41 @@
         "clue": "bau bahasa inggris (smelly = melly) + ghost + snail (jalannya slow)",
         "answer": "melly goeslaw",
         "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811994827909627984/unknown.png",
+        "clue": "Pinset + Trompi",
+        "answer": "vincent trompies",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811997453209174066/unknown.png",
+        "clue": "Cone + to + Aji",
+        "answer": "kunto aji",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811998698304831578/unknown.png",
+        "clue": "Comment + Meong",
+        "answer": "komeng",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812000627001524244/Z.png",
+        "clue": "NIK + Sapu + Kelas + Putra",
+        "answer": "nicholas saputra",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812001830459539496/unknown.png",
+        "clue": "Sunda + Bule",
+        "answer": "sule",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812002805908111430/unknown.png",
+        "clue": "kayu + ketingting",
+        "answer": "Ayu Ting-Ting",
+        "reward": 0
     }
 ]
