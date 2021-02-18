@@ -1,4 +1,5 @@
 'use strict';
+const data = require('../data/questions.json')
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -11,6 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
+    await queryInterface.bulkInsert('Questions', data, {})
   },
 
   down: async (queryInterface, Sequelize) => {
@@ -20,5 +22,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
+    await queryInterface.bulkInsert('Questions', null, {})
   }
 };
