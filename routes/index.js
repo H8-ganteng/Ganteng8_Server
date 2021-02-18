@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 app.post('/createUser', Controller.createUser)
 app.delete('/deleteUser', Controller.deleteUser)
-app.get('/question', Controller.getQuestions)
+app.get('/questions', Controller.getQuestions)
 
 
 module.exports = app
