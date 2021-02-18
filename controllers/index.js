@@ -13,7 +13,6 @@ class Controller {
                 console.log(err);
                 res.status(500).json({ msg: err.message })
             })
-
         // User.findOne({
         // newUser.loggedIn = true
         //     where: {
@@ -44,10 +43,9 @@ class Controller {
     }
 
     static deleteUser(req, res, next) {
-        const userId = req.body.userId
         User.destroy({
             where: {
-                id: userId
+                username: req.body.username
             }
         }).then(success => {
             res.status(200).json({ msg: 'success delete user' })
@@ -55,11 +53,21 @@ class Controller {
             res.status(500).json({ msg: 'Internal server error' })
         })
     }
-    
+
     static getQuestions(req, res, next) {
         Question.findAll()
             .then(data => {
                 res.status(200).json({ msg: 'get data', data })
+            })
+            .catch(err => {
+                res.status(500).json({ msg: 'Internal server error' })
+            })
+    }
+
+    static getAllUser(req, res, next) {
+        User.findAll()
+            .then(data => {
+                res.status(200).json(data)
             })
             .catch(err => {
                 res.status(500).json({ msg: 'Internal server error' })
