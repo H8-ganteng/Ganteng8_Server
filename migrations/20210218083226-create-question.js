@@ -12,6 +12,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
+      clue: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
       answer: {
         type: Sequelize.STRING,
         allowNull: false

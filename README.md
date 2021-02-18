@@ -13,6 +13,7 @@ HARUS SEEDING
 ###Questions
 
 > imageUrl NOT NULL, STRING => imgurl </br>
+> clue NOT NULL, STRING </br>
 > answer NOT NULL, STRING </br>
 > reward NOT NULL, INTEGER </br>
 
