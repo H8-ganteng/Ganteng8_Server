@@ -1,5 +1,4 @@
 'use strict';
-const { hashPass } = require('../helpers/bcrypt')
 const {
   Model
 } = require('sequelize');
@@ -29,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     points: DataTypes.INTEGER,
-    loggedIn: DataTypes.INTEGER
+    // loggedIn: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'User',
