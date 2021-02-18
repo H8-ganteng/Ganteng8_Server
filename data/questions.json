@@ -58,5 +58,11 @@
         "clue": "none",
         "answer": "hotman paris",
         "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811982184570421278/Z.png",
+        "clue": "mbak yu, kang bakso, air pam, nyamuk, uang",
+        "answer": "bambang pamungkas",
+        "reward": 0
     }
 ]
