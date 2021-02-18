@@ -13,7 +13,6 @@ class Controller {
                 console.log(err);
                 res.status(500).json({ msg: err.message })
             })
-
         // User.findOne({
         // newUser.loggedIn = true
         //     where: {
@@ -59,6 +58,16 @@ class Controller {
         Question.findAll()
             .then(data => {
                 res.status(200).json({ msg: 'get data', data })
+            })
+            .catch(err => {
+                res.status(500).json({ msg: 'Internal server error' })
+            })
+    }
+
+    static getAllUser(req, res, next) {
+        User.findAll()
+            .then(data => {
+                res.status(200).json(data)
             })
             .catch(err => {
                 res.status(500).json({ msg: 'Internal server error' })

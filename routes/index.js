@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/createUser', Controller.createUser)
+app.get('/user', Controller.getAllUser)
 app.delete('/deleteUser', Controller.deleteUser)
 app.get('/questions', Controller.getQuestions)
 
