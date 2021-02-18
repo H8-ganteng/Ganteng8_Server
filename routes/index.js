@@ -3,9 +3,11 @@ const app = express.Router()
 const Controller = require('../controllers/index')
 
 app.post('/createUser', Controller.createUser)
-app.post('/deleteUser', Controller.deleteUser)
+app.delete('/deleteUser', Controller.deleteUser)
 app.get('/question', Controller.getQuestions)
 
+
+module.exports = app
 // GET / => intro web
 // POST /login
 // GET /questions
