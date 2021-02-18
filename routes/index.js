@@ -3,8 +3,7 @@ const app = express.Router()
 const Controller = require('../controllers/index')
 
 app.post('/login', Controller.addUser)
-app.post('/question', Controller.getQuestions)
-
+app.get('/question', Controller.getQuestions)
 
 // GET / => intro web
 // POST /login
