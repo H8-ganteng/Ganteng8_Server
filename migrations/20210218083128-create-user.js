@@ -14,6 +14,9 @@ module.exports = {
       points: {
         type: Sequelize.INTEGER
       },
+      loggedIn: {
+        type: Sequelize.BOOLEAN
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
