@@ -1,32 +1,8 @@
 [
     {
-        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811884206283161650/ngenes.jpg",
-        "clue": "artis indonesia",
-        "answer": "",
-        "reward": 0
-    },
-    {
-        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811884223115689994/perkasa.jpg",
-        "clue": "cowo, stand up comedian",
-        "answer": "",
-        "reward": 0
-    },
-    {
-        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811884615945420810/bersiul.jpg",
-        "clue": "pelawak cowo",
-        "answer": "",
-        "reward": 0
-    },
-    {
-        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811884785794416650/nunjuk.jpg",
-        "clue": "artis indonesia",
-        "answer": "",
-        "reward": 0
-    },
-    {
-        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811884789626830889/tato.jpg",
-        "clue": "pemain sinetron cewe",
-        "answer": "",
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812175750937444352/4ym7sw.png",
+        "clue": "nunjuk + kaki + tatto",
+        "answer": "yuki kato",
         "reward": 0
     },
     {
@@ -36,15 +12,27 @@
         "reward": 0
     },
     {
-        "imageUrl": "https://cdn.discordapp.com/attachments/811864005487493141/811920833156481034/1-69c592ed5b8eccaa542ebdc01b09b812.png",
-        "clue": "none",
-        "answer": "kuda",
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812178725579915264/Z.png",
+        "clue": "Xie xie + rem + cium + akar",
+        "answer": "siren sungkar",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812180248238096384/Z.png",
+        "clue": "Jeruk purut + Dislike",
+        "answer": "limbad",
         "reward": 0
     },
     {
         "imageUrl": "https://cdn.discordapp.com/attachments/811864005487493141/811921344760643644/4-3099d645f82036a0d88f2bef9932fba1.png",
         "clue": "none",
         "answer": "dian sastro",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812181508731174912/4yma0g.png",
+        "clue": "Buk Lurah + Tang + Cium",
+        "answer": "bulu tangkis",
         "reward": 0
     },
     {
@@ -57,6 +45,12 @@
         "imageUrl": "https://cdn.discordapp.com/attachments/811864005487493141/811922278844596234/10-3b64a4c93c43b3b716d9e5fd9ef14463.png",
         "clue": "none",
         "answer": "hotman paris",
+        "reward": 0
+    },
+    {
+        "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812183479910924308/9k.png",
+        "clue": "Alis + angka 1 + bando",
+        "answer": "allysa soebandono",
         "reward": 0
     },
     {
@@ -79,7 +73,7 @@
     },
     {
         "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/811991726310162522/CeKrBilUUAAAeSG.png",
-        "clue": "bau bahasa inggris (smelly = melly) + ghost + snail (jalannya slow)",
+        "clue": "bau bahasa inggris + ghost + snail",
         "answer": "melly goeslaw",
         "reward": 0
     },
@@ -115,8 +109,8 @@
     },
     {
         "imageUrl": "https://cdn.discordapp.com/attachments/811883862057549854/812002805908111430/unknown.png",
-        "clue": "kayu + ketingting",
-        "answer": "Ayu Ting-Ting",
+        "clue": "kayu + bell",
+        "answer": "ayu ting-ting",
         "reward": 0
     }
 ]
