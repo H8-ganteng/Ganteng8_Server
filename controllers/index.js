@@ -10,7 +10,6 @@ class Controller {
                 res.status(201).json({ msg: 'user create new', status: true })
             })
             .catch(err => {
-                console.log(err);
                 res.status(500).json({ msg: err.message })
             })
         // User.findOne({
