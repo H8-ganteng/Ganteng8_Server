@@ -2,7 +2,7 @@ const http = require('./app')
 const port = process.env.PORT || 3000
 const io = require('socket.io')(http, {
   cors: {
-    origin: "http://localhost:8080",
+    origin: "https://tebak-gambuar.web.app",
     method: ['POST','GET','DELETE','UPDATE','PATCH'],
     credentials: true
   },
@@ -34,6 +34,7 @@ io.on('connection', (socket) => {
   //   }
   // })
   socket.on('setPoints', async user => {
+    console.log('azzzzzzzz')
     await User.update({
       points: user.points
     }, { where: { username: user.username } })
